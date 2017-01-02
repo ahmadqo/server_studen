@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="tutot.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table border="1" width="static" height="static" align="center">
+	<tr >
+		<td height="30%" width="static" colspan="2">
+			<h1>Ahmad Qomaruddin</h1>
+		</td>
+	</tr>
+	<tr width="static" height="static">
+		<td width="80%" height="100%">
+			<?
+				$link=$_request['slink'];
+				if(isset($slink))
+				include"$link";
+				else
+				include"";
+			?>
+			Selamat Datang di Web Saya
+		</td>
+		
+		<td width="20%" height="static" align="left" valign="top">
+			<div id="menu">
+				<h4><b>CODING</b></h4>
+				<ul>
+					<li> <a href="">Program C++</a> </li>
+					<li> <a href="">Program PHP</a> </li>
+					<li> <a href="">Program HTML</a> </li>
+					<li> <a href="">Program Java Script</a> </li>
+				</ul>
+			</div>
+		</td>
+	</tr>
+	<td colspan="2" align="center"> <font color="red">Copyright &copy 2016 by Me</td>
+</table>
+</body>
+</html>

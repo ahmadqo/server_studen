@@ -1,0 +1,23 @@
+<style type="text/css">
+	#menu _utama ul{
+		list-syle-type:none;
+		text-align:center;
+		background-color:yellow;
+	}
+
+	#menu_utama li{
+		display:inline;
+	}
+
+	#menu_utama li a {
+		box-shadow:5px 5px 5px gray;
+		border-radius:10px
+		border-right:1px solid;
+		padding: .2em 1em;
+	}
+
+	#menu_utama li a:hover{
+		background-color:blue;
+		color:black;
+	}
+</style>

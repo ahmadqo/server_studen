@@ -1,0 +1,71 @@
+<!Doctype html>
+<html>
+<head>
+	<title> MyServerStudent </title>
+	<link href="design.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<table border="0" width="static" height="static" align="center" >
+	<tr>
+		<td  align="center" width="static" height="27%" colspan="5"> <img src="coding9.jpg" width="800px" height="200px"></td>
+	</tr>
+	
+	<tr >
+		<td colspan="5" >
+		<marquee behavior="alternate" ><font size="4" style="color:blue; font-family:Snap ITC";> MATUR SUWUN SAMPUN PURUN MAMPIR </font></marquee> 
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center" width="static" colspan="5">
+			<div id="menu_utama">
+				<ul>
+					<li><a href="http://serverstudent.akakom.ac.id/~ahmadqo10028/">Home</a></li>
+					<li><a href="http://serverstudent.akakom.ac.id/~ahmadqo10028/FILE">Server Student</a></li>
+					<li><a href="#">Data sharing</a></li>
+					<li><a href="#">Informasi Praktikum</a></li>
+					<li><a href="contac.html">Contacts</a></li>
+				</ul>
+			</div>
+		</td>
+	</tr>
+	
+	<tr>
+		<!--<td width="150" valign="top">
+			<table border="1" width="100%">
+			<tr>
+				<td width="200" height="30" align="top"><font color="red" size="4"> <i> MENU UTAMA </i></font></td>
+			</tr>
+			<tr>
+				<td width="200" height="30"><font color="blue" size="4"><A HREF="http://serverstudent.akakom.ac.id/!ahmadqo10028/FILE"> Student Server </A> </font></td>
+			</tr>
+			<tr>
+				<td width="200" height="30"><font color="blue" size="4"><A HREF="?slink=about.html"> Data Sharing </A></font></td>
+			</tr>
+			<tr>
+				<td  width="200" height="30"><font color="blue" size="4"><A HREF="?slink=gallery.html"> Informasi Praktikum </A></font></td>
+			</tr>
+			<<tr>
+				<td width="200" height="20"><font color="blue" size="4"><A HREF="?slink=myinfo.html"> Info </A></font></td>
+			</tr>
+			</table>
+		</td>-->
+
+		<td width="800px" height="100%"> <!--bagian konten-->
+			<?
+			$link=$_request['slink'];
+			if(isset($slink))
+			include"$link";
+			else
+			include"";
+			?>
+			<img src="programer.jpg" width="800px" height="relative">
+		</td>
+	</tr>
+	
+		<td " colspan="5" align="center"> <font color="red"> <i> Copyright@ Ahmad Qomaruddin </i> </font> </td>
+	</tr>
+	</table>
+</body>
+</html>
